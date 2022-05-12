@@ -1,0 +1,16 @@
+.main {
+  flex-grow: 1;
+  background-image: url("../../images/hreo-back-img.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50% +  400px) calc(50% + -110px);
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+      background-image: url("../../images/hero-backs.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: calc(50% + 0px) calc(50% + -300px);
+    }
+}
